@@ -92,10 +92,24 @@ ul li a {
   position:absolute;
   background-color: rgb(33, 156, 160);
   left:17vw;
-  width:70%;
-  height:70%;
+  width:65%;
+  height:80%;
   bottom: 0px;
-  
+ }
+
+ .layer1Page1 {
+  display: flex;
+ }
+
+ .imgPage1 {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  max-height: 100vh;
+  z-index: 1;
+  position:absolute;
+bottom:0px;
+right: 2vw;
  }
 
 

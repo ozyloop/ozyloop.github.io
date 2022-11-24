@@ -117,4 +117,12 @@ $(document).ready(function(){
 	});
 });
 
+function goToPage(index) {
+  indexPage = index;
+  window.scrollTo(0, (indexPage - 1) * wh);
+  this.oldScroll = (indexPage - 1) * wh
+}
+
+//ajouter le changement de page navbar avec le scroll
+
 
