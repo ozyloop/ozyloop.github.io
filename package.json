@@ -1,8 +1,8 @@
 {
-  "homepage": "https://ozyloop.github.io/",
+  "homepage": "https://ozyloop.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -18,7 +18,7 @@
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
