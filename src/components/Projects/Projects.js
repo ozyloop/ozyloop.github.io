@@ -15,18 +15,18 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mes <strong className="purple">Expériences </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Voici quelques projets auquels j'ai pu faire partie ou sur lesquels je travail actuelement
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Application Mobile"
+              description="L'avenir de Mortain est une association sportive auprès de laquelle j'ai pu effectué mon stage de 3ème année. Durant ce stage j'ai pu commencer la conception d'une application mobile afin de facilité la communication d'informations."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Jeux Vidéo"
+              description="Avec mes collègues de la ToasterCorp, nous créons un jeu vidéo type rogue lite. Ce jeu sera disponible sur PC."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -47,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Site Web Pro"
+              description="Avec mes collègues de la ToasterCorp, nous développons un site web pour une palmeraie. Nous sommes aussi en charge de créer sa communication digitale ainsi que son identité graphique."
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -58,8 +58,8 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Eco-Conception Web"
+              description="Durant ma 4ème année d'étude sup j'ai pu participer au concours design 4 green, un concours d'éco-conception web pendant une durée de seulement 48h."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -69,24 +69,58 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Mini-Jeu Python"
+              description="Durant mes études en classe préparatoire en Physique Chimie j'ai pu développer en projet un mini-jeu en python qui implementait les calculs de réalités physiques."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
+          
+        </Row>
+      </Container>
+      <Container>
+        <h1 className="project-heading">
+          Mes <strong className="purple">Engagement Bénévoles </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Voici quelques uns de mes Engagement Bénévoles
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chatify}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Coach"
+              description="J'aide quand le temps me le permet un club d'athlétisme pour les entrainements."
+              ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://chatify-49.web.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Eco-Run"
+              description="Je participe aux Eco-run. Ce sont des marche / jogging qui ont pour but de nettoyer les endroits que nous parcouront."
+              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Co-Organisateur d'observation astronomique"
+              description="Avec le club Astro'Esaip dont j'ai pu faire partie j'ai pu organiser plusieurs sortie d'observation afin de pour voir éduquer les autres membres sur les mystères de l'univers."
+              ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
+          
         </Row>
       </Container>
     </Container>

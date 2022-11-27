@@ -451,6 +451,20 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
+
+/*-----*/
+
+.asso-section {
+  position: relative !important;
+  padding-top: 1500px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+
+
+/*----*/
+
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
