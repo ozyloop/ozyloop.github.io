@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Bonjour, je suis <span className="purple">Thomas Leroux </span>
             d' <span className="purple"> Angers, France.</span>
-            <br />Je suis un étudiant ingénieur informatique à l'ESAIP, spécialisé en Intelligence artificielle.
+            <br />Je suis un étudiant en ingénieurie informatique à l'<span className="purple">ESAIP</span>, spécialisé en Intelligence artificielle.
             <br />
             <br />
             À coté du code, voici quelques activités que j'aime faire!

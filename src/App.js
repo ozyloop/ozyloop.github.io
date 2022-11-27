@@ -4,8 +4,15 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Adm from "./components/Projects/Details/Adm";
+import O2A from "./components/Projects/Details/O2A";
+import Palmeraie from "./components/Projects/Details/Palmeraie";
+import D4G from "./components/Projects/Details/D4G";
+import Footmania from "./components/Projects/Details/Footmania";
+
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -39,6 +46,11 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/Adm" element={<Adm />} />
+          <Route path="/O2A" element={<O2A />} />
+          <Route path="/Palmeraie" element={<Palmeraie />} />
+          <Route path="/D4G" element={<D4G />} />
+          <Route path="/Footmania" element={<Footmania />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
