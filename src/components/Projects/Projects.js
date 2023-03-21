@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
+import adm from "../../Assets/Projects/pc_adm.png";
+import astro from "../../Assets/Projects/pc_astro.png";
+import coach from "../../Assets/Projects/pc_coach_thomas2.png";
+import d4g from "../../Assets/Projects/pc_d4g.png";
+import ecoRun from "../../Assets/Projects/pc_eco_run.png";
+import flutter from "../../Assets/Projects/pc_flutter.png";
+import footmania from "../../Assets/Projects/pc_footmania.png";
+import toaster from "../../Assets/Projects/pc_toaster.png";
+import unity from "../../Assets/Projects/pc_unity.png";
+import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+
+
 
 function Projects() {
+  const [expand, updateExpanded] = useState(false);
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -22,58 +31,86 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+          <Nav.Link
+                as={Link}
+                to="/Adm"
+                onClick={() => updateExpanded(false)}
+              >
             <ProjectCard
-              imgPath={chatify}
+              imgPath={adm}
               isBlog={false}
               title="Application Mobile"
               description="L'avenir de Mortain est une association sportive auprès de laquelle j'ai pu effectué mon stage de 3ème année. Durant ce stage j'ai pu commencer la conception d'une application mobile afin de facilité la communication d'informations."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              
+              
             />
+            </Nav.Link>
           </Col>
 
           <Col md={4} className="project-card">
+          <Nav.Link
+                as={Link}
+                to="/O2A"
+                onClick={() => updateExpanded(false)}
+              >
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={unity}
               isBlog={false}
               title="Jeux Vidéo"
               description="Avec mes collègues de la ToasterCorp, nous créons un jeu vidéo type rogue lite. Ce jeu sera disponible sur PC."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+             
+              
             />
+            </Nav.Link>
           </Col>
 
           <Col md={4} className="project-card">
+          <Nav.Link
+                as={Link}
+                to="/Palmeraie"
+                onClick={() => updateExpanded(false)}
+              >
             <ProjectCard
-              imgPath={editor}
+              imgPath={toaster}
               isBlog={false}
               title="Site Web Pro"
               description="Avec mes collègues de la ToasterCorp, nous développons un site web pour une palmeraie. Nous sommes aussi en charge de créer sa communication digitale ainsi que son identité graphique."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              
+                         
             />
+            </Nav.Link>
           </Col>
 
           <Col md={4} className="project-card">
+          <Nav.Link
+                as={Link}
+                to="/D4G"
+                onClick={() => updateExpanded(false)}
+              >
             <ProjectCard
-              imgPath={leaf}
+              imgPath={d4g}
               isBlog={false}
               title="Eco-Conception Web"
               description="Durant ma 4ème année d'étude sup j'ai pu participer au concours design 4 green, un concours d'éco-conception web pendant une durée de seulement 48h."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
             />
+            </Nav.Link>
           </Col>
 
           <Col md={4} className="project-card">
+          <Nav.Link
+                as={Link}
+                to="/Footmania"
+                onClick={() => updateExpanded(false)}
+              >
             <ProjectCard
-              imgPath={suicide}
+              imgPath={footmania}
               isBlog={false}
               title="Mini-Jeu Python"
               description="Durant mes études en classe préparatoire en Physique Chimie j'ai pu développer en projet un mini-jeu en python qui implementait les calculs de réalités physiques."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              
+              
             />
+            </Nav.Link>
           </Col>
 
           
@@ -89,34 +126,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={coach}
               isBlog={false}
               title="Coach"
-              description="J'aide quand le temps me le permet un club d'athlétisme pour les entrainements."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="J'aide, quand le temps me le permet, un club d'athlétisme pour les entrainements, encadrer les athlètes, mise à disposition du matériel etc."
+              
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ecoRun}
               isBlog={false}
               title="Eco-Run"
-              description="Je participe aux Eco-run. Ce sont des marche / jogging qui ont pour but de nettoyer les endroits que nous parcouront."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Je participe aux Eco-runs. Ce sont des marches / jogging qui ont pour but de nettoyer les endroits que nous parcouront."
+              
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={astro}
               isBlog={false}
               title="Co-Organisateur d'observation astronomique"
               description="Avec le club Astro'Esaip dont j'ai pu faire partie j'ai pu organiser plusieurs sortie d'observation afin de pour voir éduquer les autres membres sur les mystères de l'univers."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              
+                        
             />
           </Col>
 
