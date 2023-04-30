@@ -8,7 +8,7 @@ import astro from "../../Assets/Projects/pc_astro.png";
 import coach from "../../Assets/Projects/pc_coach_thomas2.png";
 import d4g from "../../Assets/Projects/pc_d4g.png";
 import ecoRun from "../../Assets/Projects/pc_eco_run.png";
-import flutter from "../../Assets/Projects/pc_flutter.png";
+
 import footmania from "../../Assets/Projects/pc_footmania.png";
 import toaster from "../../Assets/Projects/pc_toaster.png";
 import unity from "../../Assets/Projects/pc_unity.png";
@@ -57,7 +57,7 @@ function Projects() {
               imgPath={unity}
               isBlog={false}
               title="Jeux Vidéo"
-              description="Avec mes collègues de la ToasterCorp, nous créons un jeu vidéo type rogue lite. Ce jeu sera disponible sur PC."
+              description="Avec mes collègues de la ToasterCorp, nous créons un jeu vidéo type rogue lite. Ce jeu sera disponible sur PC. Il apportera un nouveau style de jeu tout en reprenant les codes qui font de ce type, l'un des plus en vogue."
              
               
             />
@@ -74,7 +74,7 @@ function Projects() {
               imgPath={toaster}
               isBlog={false}
               title="Site Web Pro"
-              description="Avec mes collègues de la ToasterCorp, nous développons un site web pour une palmeraie. Nous sommes aussi en charge de créer sa communication digitale ainsi que son identité graphique."
+              description="Avec mes collègues de Sykey, companie que nous avons créé, nous développons un site web Front et Back pour une palmeraie. Nous sommes aussi en charge de créer sa communication digitale ainsi que son identité graphique."
               
                          
             />
@@ -140,7 +140,7 @@ function Projects() {
               imgPath={ecoRun}
               isBlog={false}
               title="Eco-Run"
-              description="Je participe aux Eco-runs. Ce sont des marches / jogging qui ont pour but de nettoyer les endroits que nous parcouront."
+              description="Je participe aux Eco-runs. Ce sont des marches / jogging qui ont pour but de nettoyer les endroits que nous parcouront. l'année dernière nous avons récolté plus de 200kg de déchet en l'espace de 2h."
               
               
             />
@@ -151,7 +151,7 @@ function Projects() {
               imgPath={astro}
               isBlog={false}
               title="Co-Organisateur d'observation astronomique"
-              description="Avec le club Astro'Esaip dont j'ai pu faire partie j'ai pu organiser plusieurs sortie d'observation afin de pour voir éduquer les autres membres sur les mystères de l'univers."
+              description="Avec le club Astro'Esaip dont j'ai pu faire partie j'ai pu organiser plusieurs sortie d'observation afin de pouvoir éduquer les autres membres sur les mystères de l'univers."
               
                         
             />

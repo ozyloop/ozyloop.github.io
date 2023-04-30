@@ -606,6 +606,12 @@ button:focus {
   text-align: left !important;
   padding-left: 1px !important;
 }
+.about-activity2 {
+  list-style: none !important;
+  text-align: center !important;
+  padding-left: 1px !important;
+}
+
 
 @media (max-width: 767px) {
   .about-img {

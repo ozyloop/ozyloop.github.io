@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d89a784.css",
+    "main.js": "/static/js/main.f992c01f.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pc_coach_thomas2.png": "/static/media/pc_coach_thomas2.85590d65159339d425ad.png",
+    "static/media/pc_eco_run.png": "/static/media/pc_eco_run.b04da105a746376fe6aa.png",
+    "static/media/pc_astro.png": "/static/media/pc_astro.fff72ece9b2c45ad7fff.png",
+    "static/media/pc_toaster.png": "/static/media/pc_toaster.9cb0ae79e31a9ab342fb.png",
+    "static/media/CV_Thomas_Leroux.pdf": "/static/media/CV_Thomas_Leroux.fc799c87452e7e41ab7c.pdf",
+    "static/media/pc_d4g.png": "/static/media/pc_d4g.0e526b27388ea055345c.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/pc_adm.png": "/static/media/pc_adm.d33c963857b70dfc1e53.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/pc_unity.png": "/static/media/pc_unity.7d85bd4b9916cf6de751.png",
+    "static/media/pc_footmania.png": "/static/media/pc_footmania.e1f3210d47643aa28f01.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pastAbout.svg": "/static/media/pastAbout.53ee1635209333cd63132778d3ff85eb.svg",
+    "static/media/futurAbout.svg": "/static/media/futurAbout.51c15f31ddd6cee53b6c422532fbcb45.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.9d89a784.css.map": "/static/css/main.9d89a784.css.map",
+    "main.f992c01f.js.map": "/static/js/main.f992c01f.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d89a784.css",
+    "static/js/main.f992c01f.js"
+  ]
+}
